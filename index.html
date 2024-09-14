@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Game Hall</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: black;
+            color: #00FF00;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin: 20px 0;
+            font-size: 3em;
+        }
+
+        .arcade {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .console {
+            background-color: #333;
+            border: 5px solid #00FF00;
+            padding: 20px;
+            border-radius: 10px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .console:hover {
+            background-color: #444;
+        }
+
+        .console p {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        .coming-soon {
+            background-color: #222;
+            cursor: default;
+        }
+
+        .coming-soon p {
+            color: #FF0000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>ARCADE GAME HALL</h1>
+    <div class="arcade">
+        <!-- Available Games -->
+        <div class="console" onclick="window.location.href='https://www.example.com/space-invaders';">
+            <p>Space Invaders</p>
+        </div>
+        <div class="console" onclick="window.location.href='https://www.example.com/pong';">
+            <p>Pong</p>
+        </div>
+        <div class="console" onclick="window.location.href='https://www.example.com/tetris';">
+            <p>Tetris</p>
+        </div>
+        <div class="console" onclick="window.location.href='https://www.example.com/flappy-bird';">
+            <p>Flappy Bird</p>
+        </div>
+        <div class="console" onclick="window.location.href='https://www.example.com/snake';">
+            <p>Snake</p>
+        </div>
+
+        <!-- Coming Soon Consoles -->
+        <div class="console coming-soon">
+            <p>Coming Soon!</p>
+        </div>
+        <div class="console coming-soon">
+            <p>Coming Soon!</p>
+        </div>
+        <div class="console coming-soon">
+            <p>Coming Soon!</p>
+        </div>
+        <div class="console coming-soon">
+            <p>Coming Soon!</p>
+        </div>
+        <div class="console coming-soon">
+            <p>Coming Soon!</p>
+        </div>
+    </div>
+</body>
+
+</html>
