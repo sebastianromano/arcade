@@ -10,6 +10,7 @@ Dive into some classic arcade games and enjoy a blast from the past.
 - [**Space Invaders**](https://sebastianromano.github.io/space-invaders/) 🚀
 - [**Pong**](https://sebastianromano.github.io/pong/) 🏓
 - [**Tetris**](https://sebastianromano.github.io/tetris/) 🔲
+- [**Heart Tetris**](https://sebastianromano.github.io/heart-tetris/) ❤️
 - [**Flappy Bird**](https://sebastianromano.github.io/flappy-bird/) 🐦
 - [**Snake**](https://sebastianromano.github.io/snake/) 🐍
 - [**Breakout**](https://sebastianromano.github.io/breakout/)
